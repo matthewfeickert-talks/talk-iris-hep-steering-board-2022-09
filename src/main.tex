@@ -138,7 +138,7 @@
 
   \begin{itemize}
     \item Together these project compose to form a coherent \textbf{analysis pipeline}
-    \item Interface with DOMA (ServiceX, Coffea-Casa, and friends) and Scalable Systems Laboratory (analysis facilities)
+    \item Interface with \linkref{https://iris-hep.org/doma.html}{DOMA} (ServiceX, Coffea-Casa, and friends) and \linkref{https://iris-hep.org/ssl.html}{Scalable Systems Laboratory} (analysis facilities) areas
     \item Underlying pipeline for the Anlaysis Grand Challenge (AGC)
     \begin{itemize}
       \item c.f. Alex and Oksana's \linkref{https://indico.cern.ch/event/985527/contributions/4635518/}{AGC update in Steering Board Meeting 12}
@@ -148,11 +148,30 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Analysis Systems Goals}
+  \frametitle{Analysis Systems Year 4 Themes}
 
-  \begin{itemize}
-    \item Lay out what the actual project goals are and where we're going here
-    \item Compare to the requirements that we've agreed to
+  \begin{itemize}\setlength{\itemsep}{0.25 cm}
+    \item \textbf{Year 3} focused on \textbf{Integration and Adoption}
+    \begin{itemize}
+      \item Getting tools to work coherently together and getting the community using them
+    \end{itemize}
+    \item Year 4
+    \begin{itemize}
+      \item \textbf{Project maturity / feature completness}
+      \begin{itemize}
+        \item (core) feature completness of \texttt{pyhf}, \texttt{cabinetry}
+        \item Roadmaps for integration of Awkward to broader analysis communities (\linkref{https://iris-hep.org/projects/awkward-dask.html}{Awkward-Dask}) and differntiable analysis
+      \end{itemize}
+      \item \textbf{Community socialization / supporting analysis use}
+      \begin{itemize}
+        \item \texttt{pyhf} used in published analyses by ATLAS, Belle II, Belle, pheno community (35 use citations to date)
+        \item Scikit-HEP tools finding traction outside of HEP (Awkward, boost-histogram)
+        \item Scikit-HEP / IRIS-HEP tools and maintainers being invited to broader Scientific Python conferences and communities (SciPy Confrences, PyPA packaging summit)
+        \item Adoption of pieces of ecosystem making it easier for the whole (uproot ubiquitous, ATLAS investigating Daks for analysis workflows, coffea adopts hist, LHCb publishes first analysis using only Scikit-HEP tools)
+      \end{itemize}
+    \end{itemize}
+    % \item Lay out what the actual project goals are and where we're going here
+    % \item Compare to the requirements that we've agreed to
   \end{itemize}
 
 \end{frame}
