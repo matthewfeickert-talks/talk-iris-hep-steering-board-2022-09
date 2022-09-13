@@ -138,7 +138,7 @@
 
   \begin{itemize}
     \item Together these project compose to form a coherent \textbf{analysis pipeline}
-    \item Interface with \linkref{https://iris-hep.org/doma.html}{DOMA} (ServiceX, Coffea-Casa, and friends) and \linkref{https://iris-hep.org/ssl.html}{Scalable Systems Laboratory} (analysis facilities) areas
+    \item Interface with \linkref{https://iris-hep.org/doma.html}{DOMA} (ServiceX, Coffea-Casa, and friends) and \linkref{https://iris-hep.org/ssl.html}{Scalable Systems Laboratory} (analysis facilities) areas, benefitting from \linkref{https://iris-hep.org/blueprint.html}{Blueprint Activity} process
     \item Underlying pipeline for the Anlaysis Grand Challenge (AGC)
     \begin{itemize}
       \item c.f. Alex and Oksana's \linkref{https://indico.cern.ch/event/985527/contributions/4635518/}{AGC update in Steering Board Meeting 12}
@@ -177,21 +177,36 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Analysis Systems Project Progress}
-
-  \begin{itemize}
-    \item Highlight some project wins
-    \item pyhf, cabinetry, awkward
-  \end{itemize}
-
-\end{frame}
-
-\begin{frame}
   \frametitle{Analysis Systems Project Progress: Awkward}
 
-  \begin{itemize}
-    \item awkward
-  \end{itemize}
+  \begin{columns}
+    \column{0.45\textwidth}
+    \begin{itemize}\setlength{\itemsep}{0.1 cm}
+      \item Awkward is used outside of HEP, and very much appreciated
+      \item \begin{figure}
+        \begin{center}
+            \href{https://iris-hep.org/projects/awkward-dask.html}{\includegraphics[width=\linewidth]{awkward-dask.pdf}}
+        \end{center}
+    \end{figure}
+        %
+   Awkward Array CSSI (\linkref{https://www.nsf.gov/awardsearch/showAward?AWD_ID=2103945}{OAC-2103945}) has development of a new Dask container type representing Awkward Arrays
+      \item
+      \begin{figure}
+        \begin{center}
+            \href{https://github.com/jpivarski-talks/2022-07-11-scipy-loopy-tutorial}{\includegraphics[width=\linewidth]{awkward-tutorial-placecard.png}}
+            Part of Jim's SciPy 2022 Tutorial
+        \end{center}
+      \end{figure}
+    \end{itemize}
+%
+    \column{0.55\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://iris-hep.org/analysis-community-summary/\#stars}{\includegraphics[width=\linewidth]{time_series_stars.pdf}}
+            Cummulative GitHub stars of IRIS-HEP/Scikit-HEP projects vs. time. Awkward has the most by far.
+        \end{center}
+    \end{figure}
+  \end{columns}
 
 \end{frame}
 
