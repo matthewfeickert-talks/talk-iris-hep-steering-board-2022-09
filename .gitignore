@@ -277,3 +277,6 @@ TSWLatexianTemp*
 
 # Ignore outputs
 *.pdf
+
+# VSCode
+.vscode/
