@@ -222,6 +222,7 @@
           \includegraphics[width=\linewidth]{hist-adoption-in-coffea.png}
         \end{center}
       \end{figure}
+      \item Furthers idea of interoperable ecosystem where adoption of parts means better integration of the whole
     \end{itemize}
 %
     \column{0.55\textwidth}
@@ -238,11 +239,41 @@
 \begin{frame}
   \frametitle{Analysis Systems Project Highlights: pyhf}
 
-  \begin{itemize}
-    \item pyhf
-    \item probability model publishing
-    \item Highlight wins in HSF with HEPData
-  \end{itemize}
+  % \begin{itemize}
+  %   \item pyhf
+  %   \item probability model publishing
+  %   \item Highlight wins in HSF with HEPData
+  % \end{itemize}
+
+  \begin{columns}
+    \column[t]{0.50\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://scikit-hep.org/pyhf/citations.html}{\includegraphics[width=\linewidth]{community-adoption.pdf}}
+        \end{center}
+    \end{figure}
+    \begin{itemize}
+      \item pyhf adopted widely through the HEP community (\linkref{https://scikit-hep.org/pyhf/citations.html\#use-citations}{35 use citations})
+      \item HistFactory probability model publishing with pyhf JSON schema from ATLAS (\linkref{https://github.com/pyhf/public-probability-models}{22 published})
+    \end{itemize}
+%
+    \column[t]{0.50\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://www.hepdata.net/search/?q=analysis:HistFactory}{\includegraphics[width=\linewidth]{hepdata-histfactory-badge.png}}
+            \href{https://twitter.com/HEPData/status/1529038702344798212}{\includegraphics[width=0.45\linewidth]{hepdata-histfactory-tweet.png}}
+        \end{center}
+    \end{figure}
+    \vspace{-10pt}
+    \begin{itemize}
+      \item Published HistFactory probability models get own DOI on HEPData (future: model render, interactivity) plus a nice badge
+    \end{itemize}
+    % \begin{figure}
+    %     \begin{center}
+    %         \href{https://twitter.com/HEPData/status/1529038702344798212}{\includegraphics[width=0.4\linewidth]{hepdata-histfactory-tweet.png}}
+    %     \end{center}
+    % \end{figure}
+  \end{columns}
 
 \end{frame}
 
