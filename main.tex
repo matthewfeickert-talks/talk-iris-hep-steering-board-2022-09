@@ -7,7 +7,15 @@
   \usefonttheme{default}
   \setbeamertemplate{navigation symbols}{}
   \setbeamertemplate{caption}[numbered]
-  \setbeamertemplate{footline}[frame number]  % or "page number"
+  % \setbeamertemplate{footline}[frame number]  % or "page number"
+ \setbeamertemplate{footline}{%
+  \hfill%
+  \usebeamercolor[fg]{page number in head/foot}%
+  \usebeamerfont{page number in head/foot}%
+  \insertframenumber%
+  %\,/\,\inserttotalframenumber
+  \kern1em\vskip2pt%
+ }
   \setbeamercolor{frametitle}{fg=white}
   \setbeamercolor{footline}{fg=black}
 }
