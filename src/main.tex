@@ -1,0 +1,407 @@
+\begin{frame}{Analysis Systems Team}
+  \begin{columns}
+    \column{0.4\textwidth}
+    % \Large
+    % \begin{itemize}
+    \begin{itemize}\setlength{\itemsep}{0.1 cm}
+      \item Wisconsin-Madison
+      \begin{itemize}
+        \item Kyle, Alex, Matthew
+      \end{itemize}
+      \item Washington
+      \begin{itemize}
+        \item Gordon, Mason, Tal
+      \end{itemize}
+      \item Princeton
+      \begin{itemize}
+        \item Jim, Henry, Ianna
+      \end{itemize}
+      \item University of Cincinnati
+      \begin{itemize}
+        \item Mike, Thomas
+      \end{itemize}
+      \item Illinois
+      \begin{itemize}
+        \item Mark, Ben
+      \end{itemize}
+      \item NYU
+      \begin{itemize}
+        \item Irina
+      \end{itemize}
+      \item University of Nebraska-Lincoln
+      \begin{itemize}
+        \item Oksana
+      \end{itemize}
+    \end{itemize}
+%
+    \column{0.6\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://iris-hep.org/as.html}{\includegraphics[width=\linewidth]{analysis-systems-team.png}}
+        \end{center}
+    \end{figure}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Analysis Systems Focus Area}
+
+  \vspace*{10pt}
+  \begin{itemize}\setlength{\itemsep}{0.2 cm}
+    \item Goal: Develop \textbf{sustainable} analysis tools to extend the physics reach of the HL-LHC experiments
+  \begin{itemize}\setlength{\itemsep}{0.2 cm}
+      \item \textbf{creating greater functionality}\\(extending the reach and abilities of analysts)
+      \item \textbf{reducing time-to-insight}\\(reducing complexity and accelerating expensive computation)
+      \item \textbf{lowering the barriers for smaller teams}\\(robust, deployable tools and workflows)
+      \item \textbf{streamlining analysis preservation, reproducibility, and reuse}\\(making reproducible analyses straightforward)
+    \end{itemize}
+  \end{itemize}
+  %
+  \vspace*{5pt}
+  \begin{figure}
+    \begin{center}
+      \includegraphics[width=0.6\linewidth]{AS-focus-area.png}
+    \end{center}
+  \end{figure}
+
+\end{frame}
+
+\begin{frame}{Analysis Systems Projects}
+  \begin{columns}
+    \column{0.4\textwidth}
+    \begin{itemize}\setlength{\itemsep}{0.25 cm}
+      \item Analysis Systems are connected to analysis use cases
+      \item Systems are composed of components
+      \item Large number of these projects refer to these components
+      \begin{itemize}
+        \item Many projects include people beyond IRIS-HEP directly
+      \end{itemize}
+      \item Milestones and activities are mainly oriented towards integration, evaluation, with a global overview of the vertical
+    \end{itemize}
+%
+    \column{0.6\textwidth}
+    \begin{columns}
+      \begin{column}{0.5\textwidth}
+        \begin{figure}
+          \begin{center}
+            \href{https://iris-hep.org/as.html}{\includegraphics[width=\linewidth]{as_projects_1.png}}
+          \end{center}
+        \end{figure}
+      \end{column}
+      \begin{column}{0.5\textwidth}
+        \begin{figure}
+          \begin{center}
+            \href{https://iris-hep.org/as.html}{\includegraphics[width=\linewidth]{as_projects_2.png}}
+          \end{center}
+        \end{figure}
+      \end{column}
+    \end{columns}
+    \begin{center}
+      Analysis Systems Projects
+    \end{center}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Analysis Systems Pipeline}
+
+  \begin{figure}
+    \begin{center}
+      \href{https://iris-hep.org/as.html}{\includegraphics[width=0.7\linewidth]{cabinetry-vertical-slice.png}}
+    \end{center}
+  \end{figure}
+
+  \begin{itemize}
+    \item Together these project compose to form a coherent \textbf{analysis pipeline}
+    \item Interface with \linkref{https://iris-hep.org/doma.html}{DOMA} (ServiceX, Coffea-Casa, and friends) and \linkref{https://iris-hep.org/ssl.html}{Scalable Systems Laboratory} (analysis facilities) areas, benefitting from \linkref{https://iris-hep.org/blueprint.html}{Blueprint Activity} process
+    \item Underlying pipeline for the Analysis Grand Challenge (AGC)
+    \begin{itemize}
+      \item c.f. Alex and Oksana's \linkref{https://indico.cern.ch/event/985527/contributions/4635518/}{AGC update in Steering Board Meeting 12}
+    \end{itemize}
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Year 4 Themes}
+
+  \begin{itemize}\setlength{\itemsep}{0.25 cm}
+    \item Year 3 \linkref{https://indico.cern.ch/event/894515/contributions/3772800/}{focused on \textbf{Integration and Adoption}}
+    \begin{itemize}
+      \item Getting tools to work coherently together and getting the community using them
+    \end{itemize}
+    \item Year 4
+    \begin{itemize}
+      \item \textbf{Project maturity / feature completeness}
+      \begin{itemize}
+        \item (core) feature completeness of \texttt{pyhf}, \texttt{cabinetry}
+        \item Expanding high level API for hist for easier analysis tasks
+        \item Roadmaps for integration of Awkward to broader analysis communities (\linkref{https://iris-hep.org/projects/awkward-dask.html}{Awkward-Dask}) and differentiable analysis
+      \end{itemize}
+      \item \textbf{Community socialization / supporting analysis use}
+      \begin{itemize}
+        \item \texttt{pyhf} used in published analyses by ATLAS, Belle II, Belle, pheno community (35 use citations to date)
+        \item Scikit-HEP tools finding traction outside of HEP (Awkward, boost-histogram)
+        \item Scikit-HEP / IRIS-HEP tools and maintainers being invited to broader Scientific Python conferences and communities (SciPy Conferences, PyPA packaging summit)
+        \item Adoption of pieces of ecosystem making it easier for the whole (uproot ubiquitous, ATLAS investigating Daks for analysis workflows, coffea adopts hist, LHCb publishes first analysis using only Scikit-HEP tools)
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area Project Highlights: Awkward}
+
+  \begin{columns}
+    \column{0.45\textwidth}
+    \begin{itemize}\setlength{\itemsep}{0.1 cm}
+      \item Awkward is used outside of HEP, and very much appreciated
+      \item \begin{figure}
+        \begin{center}
+            \href{https://iris-hep.org/projects/awkward-dask.html}{\includegraphics[width=\linewidth]{awkward-dask.pdf}}
+        \end{center}
+    \end{figure}
+        %
+   Awkward Array CSSI (\linkref{https://www.nsf.gov/awardsearch/showAward?AWD_ID=2103945}{OAC-2103945}) has development of a new Dask container type representing Awkward Arrays
+      \item
+      \begin{figure}
+        \begin{center}
+            \href{https://github.com/jpivarski-talks/2022-07-11-scipy-loopy-tutorial}{\includegraphics[width=\linewidth]{awkward-tutorial-placecard.png}}
+            Part of Jim's SciPy 2022 Tutorial
+        \end{center}
+      \end{figure}
+    \end{itemize}
+%
+    \column{0.55\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://iris-hep.org/analysis-community-summary/\#stars}{\includegraphics[width=\linewidth]{time_series_stars.pdf}}
+            Cumulative GitHub stars of IRIS-HEP/Scikit-HEP projects vs. time. Awkward has the most by far.
+        \end{center}
+    \end{figure}
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area Project Highlights: hist}
+
+  \begin{columns}
+    \column{0.45\textwidth}
+    \begin{itemize}\setlength{\itemsep}{0.1 cm}
+      \item hist is being adopted as the histogramming library of coffea
+      \begin{figure}
+        \begin{center}
+          \includegraphics[width=\linewidth]{hist-adoption-in-coffea.png}
+        \end{center}
+      \end{figure}
+      \item Furthers idea of interoperable ecosystem where adoption of parts means better integration of the whole
+    \end{itemize}
+%
+    \column{0.55\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://jupyterlite.readthedocs.io/en/latest/_static/lab/index.html}{\includegraphics[width=\linewidth]{pyodide-hist.png}}
+            {\tiny (\linkref{https://pyodide.org/en/stable/}{Pyodide} CPython port to WebAssembly/Emscripten powering \linkref{https://jupyterlite.readthedocs.io/}{JupyterLite} kernel)}\\boost-histogram and hist were early trials for Pyodide kernel improvements
+        \end{center}
+    \end{figure}
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area Project Highlights: pyhf}
+
+  \begin{columns}
+    \column[t]{0.50\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://scikit-hep.org/pyhf/citations.html}{\includegraphics[width=\linewidth]{community-adoption.pdf}}
+        \end{center}
+    \end{figure}
+    \begin{itemize}
+      \item pyhf adopted widely through the HEP community (\linkref{https://scikit-hep.org/pyhf/citations.html\#use-citations}{35 use citations})
+      \item HistFactory probability model publishing with pyhf JSON schema from ATLAS (\linkref{https://github.com/pyhf/public-probability-models}{23 published})
+    \end{itemize}
+%
+    \column[t]{0.50\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://www.hepdata.net/search/?q=analysis:HistFactory}{\includegraphics[width=\linewidth]{hepdata-histfactory-badge.png}}
+            \href{https://twitter.com/HEPData/status/1529038702344798212}{\includegraphics[width=0.45\linewidth]{hepdata-histfactory-tweet.png}}
+        \end{center}
+    \end{figure}
+    \vspace{-10pt}
+    \begin{itemize}
+      \item Published HistFactory probability models get own DOI on HEPData (future: model render, interactivity) plus a nice badge
+    \end{itemize}
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area Project Highlights: cabinetry}
+
+  \begin{columns}
+    \column[t]{0.50\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://indico.cern.ch/event/1056428/contributions/4523825/}{\includegraphics[width=\linewidth]{cabinetry_plots.png}}
+            Alex Held, \linkref{https://indico.cern.ch/event/1056428/contributions/4523825/}{ATLAS SUSY Workshop 2021}
+        \end{center}
+    \end{figure}
+    \begin{itemize}
+      \item Uses pyhf as inference engine
+      \item Provides common visualization for inference validation
+    \end{itemize}
+%
+    \column[t]{0.50\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://agenda.infn.it/event/28874/contributions/169204/}{\includegraphics[width=\linewidth]{Alex-AGC-ICHEP-2022.pdf}}
+            Alex Held, \linkref{https://agenda.infn.it/event/28874/contributions/169204/}{ICHEP 2022}
+        \end{center}
+    \end{figure}
+    \begin{itemize}
+      \item Steers inference and visualization of AGC
+    \end{itemize}
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area Project Highlights: Scikit-HEP}
+
+  \begin{columns}
+    \column[t]{0.50\textwidth}
+    \begin{itemize}
+      \item IRIS-HEP supported community project with success in projects and maintainers
+      \item PyHEP workshop series has drawn over 1000 participants annually since moving to Zoom
+      \begin{itemize}
+        \item {\small \linkref{https://scikit-hep.org/}{PyHEP 2022} Organizers: Eduardo Rodrigues, \textcolor{blue}{\textbf{Graeme A. Stewart}}, \textbf{Jim Pivarski}, \textbf{Matthew Feickert}, Nikolai Hartmann, \textbf{Oksana Shadura}}
+      \end{itemize}
+      \item Forming bridges to broader scientific analysis communities (\linkref{https://scikit-hep.org/}{SciPy Conference}, \linkref{https://scikit-hep.org/}{Scientific Python}, \linkref{https://numfocus.org/}{NumFOCUS})
+    \end{itemize}
+%
+    \column[t]{0.50\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://scikit-hep.org/}{\includegraphics[width=0.25\linewidth]{scikit-hep-logo.pdf}}
+            \href{https://indico.cern.ch/event/1150631/}{\includegraphics[width=0.25\linewidth]{PyHEP_logo.png}}
+        \end{center}
+    \end{figure}
+    \begin{figure}
+        \begin{center}
+            \href{https://www.scipy2022.scipy.org/}{\includegraphics[width=0.5\linewidth]{scipy-2022-logo.png}}
+        \end{center}
+    \end{figure}
+    \begin{figure}
+        \begin{center}
+            \href{https://scientific-python.org/}{\includegraphics[width=0.2\linewidth]{scientific-python-logo.pdf}}
+        \end{center}
+    \end{figure}
+    \begin{figure}
+        \begin{center}
+            \href{https://numfocus.org/}{\includegraphics[width=0.4\linewidth]{NumFOCUS-logo.pdf}}
+        \end{center}
+    \end{figure}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area Project Highlights: Scikit-HEP}
+\vspace{0.25 cm}
+\begin{columns}
+\column{0.3\textwidth}
+
+LHCb collaboration has published \href{https://inspirehep.net/literature/1889335}{\textit{JHEP} 01 (2022) 166} using only Scikit-HEP tools for the analysis
+
+\vspace{0.75 cm}
+Scikit-HEP packages cover all aspects of analysis and working with IRIS-HEP to spread adoption
+
+\column{0.7\textwidth}
+\href{https://indico.cern.ch/event/1126109/contributions/4780169/}{\includegraphics[width=0.95\linewidth]{grieser-lhcb-analysis-in-scikit-hep.png}}
+\vspace{-5pt}
+\begin{center}
+  Nathan Grieser, \linkref{https://indico.cern.ch/event/1126109/contributions/4780169/}{IRIS-HEP AGC Tools 2022 Workshop}
+\end{center}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area Project Fellows}
+
+  \begin{figure}
+    \begin{center}
+      \href{https://iris-hep.org/as.html}{\includegraphics[width=0.9\linewidth]{AS-fellows.png}}
+    \end{center}
+  \end{figure}
+
+  \begin{center}
+    Many excellent Analysis Systems Fellows! Focusing on two Summer 2022 projects:
+  \end{center}
+\vspace*{-10pt}
+%
+  \begin{columns}
+    \column[t]{0.50\textwidth}
+    \begin{figure}
+        \begin{center}
+            \href{https://iris-hep.org/fellows/Saransh-cpp.html}{\includegraphics[width=0.6\linewidth]{vector-fellow-project.pdf}}
+        \end{center}
+        \linkref{https://iris-hep.org/fellows/Saransh-cpp.html}{Saransh Chopra}: Improvements to vector API, docs, and benchmarking to bolster the quality of the library en route to first major release
+    \end{figure}
+%
+    \column[t]{0.50\textwidth}
+    \vspace{10pt}
+    \begin{figure}
+        \begin{center}
+            \href{https://iris-hep.org/fellows/peterridolfi.html}{\includegraphics[width=\linewidth]{pyhf-combine-converter_PyPI.png}}
+        \end{center}
+        \linkref{https://iris-hep.org/fellows/peterridolfi.html}{Peter Ridolfi}: Bidirectional translation between pyhf HistFactory JSON and CMS Combine DataCard + ROOT
+    \end{figure}
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Looking Toward Year 5 Goals}
+
+  \begin{itemize}
+    \item Have ambitious goals of pursuing end-to-end differentiable Analysis Systems pipeline as part of AGC
+    \begin{itemize}
+      \item Requires additional support be added to Awkward v2
+      \item Fully differentiable pyhf components (differentiable analogues to discrete features like bins)
+      \item Robust API for entire pipeline (ServiceX, func\_ADL, HEP tables, Coffea, cabinetry, and pyhf)
+    \end{itemize}
+  \item Foster software and maintainer sustainability and project life cycle plans
+  \begin{itemize}
+    \item Legacy only works if there is a plan for maintenance and maintainers
+    \item Ongoing organization of Blueprint meeting on Software Citation and Recognition in HEP
+  \end{itemize}
+  \item Work closely with AGC co-coordinators to have tight testing of workflows
+    \begin{itemize}
+      \item Following \linkref{https://indico.cern.ch/event/1196111/}{IRIS-HEP Retreat} in October aim to have better view of how AS can support AGC
+    \end{itemize}
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Summary}
+
+  \begin{itemize}\setlength{\itemsep}{0.2 cm}
+    \item Analysis Systems projects are largely in a strong stage of software maturity
+    \begin{itemize}
+      \item Have dedicated and diverse user base that help make the software battle tested!
+      \item Projects are supporting, interacting with, and being invited into the broader communities
+    \end{itemize}
+    \item Looking to have software with longevity while also continuing development and support
+    \begin{itemize}
+      \item Longevity in both technical stability and social support
+    \end{itemize}
+    \item Goals of Analysis Systems and AGC are tightly aligned
+    \item Similarly, continued close coordination with DOMA and SSL are necessary for success of AS pipeline
+  \end{itemize}
+
+\end{frame}
