@@ -6,6 +6,6 @@ Viewable online [here](https://matthewfeickert-talks.github.io/talk-iris-hep-ste
 
 ## Acknowledgments
 
-This work was supported by the National Science Foundation under Cooperative Agreement [OAC-1836650](OAC-1836650). [![NSF-1836650](https://img.shields.io/badge/NSF-1836650-blue.svg)](OAC-1836650)
+This work was supported by the National Science Foundation under Cooperative Agreement [OAC-1836650][OAC-1836650]. [![NSF-1836650](https://img.shields.io/badge/NSF-1836650-blue.svg)][OAC-1836650]
 
-OAC-1836650: https://nsf.gov/awardsearch/showAward?AWD_ID=1836650
+[OAC-1836650]: https://nsf.gov/awardsearch/showAward?AWD_ID=1836650
